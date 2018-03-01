@@ -1,0 +1,55 @@
+.game{
+  width: 500px;
+  height: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -190px;
+  margin-left: -250px;
+  .title{
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    text-indent: 50px;
+    .refresh{
+      width: 30px;
+      height: 32px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      margin-left: 100px;
+      vertical-align: middle;
+      background: url("./src/image/refresh.png")no-repeat 0 0/30px 30px;
+    }
+  }
+  .board{
+    width: 300px;
+    border: 1px solid #ccc;
+    font-size: 0;
+    float: left;
+    .square{
+      width: 100px;
+      height: 100px;
+      line-height: 60px;
+      background: transparent;
+      border: 1px solid #ccc;
+      outline: none;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+  }
+  .steps{
+    width: 198px;
+    float: right;
+    .step-btn{
+      height: 28px;
+      width: 85%;
+      background: transparent;
+      outline: none;
+      border: 1px solid #ccc;
+      margin-left: 15%;
+      margin-top: 2px;
+      border-radius: 5px;
+    }
+  }
+}
